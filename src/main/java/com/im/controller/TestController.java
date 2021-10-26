@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class TestController {
 
-    @ApiOperation("测试customers")
+    @ApiOperation("测试账号包含角色'USER'(user不支持:未使用自动转大写)的权限")
     @GetMapping("/customers")
 //    @Secured({ "ROLE_USER"})
     public String customers() {
@@ -40,7 +40,7 @@ public class TestController {
         return "resourceCustomers";
     }
 
-    @ApiOperation("sso/login")
+    @ApiOperation("测试包含角色'ADMIN'(admin不支持:未使用自动转大写)的账号权限")
     @GetMapping("/admin/sso")
 //    @Secured({ "ROLE_ADMIN"})
     public String ssoLogin() {
