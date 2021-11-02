@@ -1,4 +1,4 @@
-package com.im.config.sercurity;
+package com.im.resource.config.sercurity;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
