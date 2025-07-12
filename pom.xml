@@ -29,7 +29,7 @@
         <querydsl.version>5.0.0</querydsl.version>
         <springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>
         <javax-persistence-api.version>2.2</javax-persistence-api.version>
-        <commons-lang3.version>3.12.0</commons-lang3.version>
+        <commons-lang3.version>3.18.0</commons-lang3.version>
         <keycloak-adapter.version>15.0.2</keycloak-adapter.version>
     </properties>
 
